@@ -3,19 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>jpa-spec</artifactId>
+        <artifactId>jpa-onetomany</artifactId>
         <groupId>priv.xiao.jpa</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../jpa-spec/pom.xml</relativePath>
+        <relativePath>../jpa-onetomany/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jpa-onetomany</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>jpa-manytomany</module>
-        <module>../jpa-manytomany</module>
-    </modules>
+    <artifactId>jpamanytomany</artifactId>
     <properties>
         <spring.version>5.1.5.RELEASE</spring.version>
         <hibernate.version>5.0.7.Final</hibernate.version>
@@ -133,5 +128,7 @@
         </dependency>
         <!-- el end -->
     </dependencies>
+
+
 
 </project>

@@ -1,6 +1,9 @@
 package xiao.entity;
 
-import xiao.entity.LinkMan;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -51,24 +54,39 @@ public class Customer {
      * * 在客户实体类上（一的一方）添加了外键了配置，所以对于客户而言，也具备了维护外键的作用
      */
 
-    @OneToMany(targetEntity = LinkMan.class)
-    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+
     /**
      * 放弃外键维护权
-     *      mappedBy：对方配置关系的属性名称\
+     * mappedBy：对方配置关系的属性名称\
      * cascade : 配置级联（可以配置到设置多表的映射关系的注解上）
-     *      CascadeType.all         : 所有
-     *                  MERGE       ：更新
-     *                  PERSIST     ：保存
-     *                  REMOVE      ：删除
-     *
+     * CascadeType.all         : 所有
+     * MERGE       ：更新
+     * PERSIST     ：保存
+     * REMOVE      ：删除
+     * <p>
      * fetch : 配置关联对象的加载方式
-     *          EAGER   ：立即加载
-     *          LAZY    ：延迟加载
-
+     * EAGER   ：立即加载
+     * LAZY    ：延迟加载
      */
-//    @OneToMany(mappedBy = "customer",cascade = CascadeType.ALL)
-    private Set<LinkMan> linkMans = new HashSet<>();
+
+    @OneToMany(mappedBy = "customer",cascade = CascadeType.ALL)
+//    @OneToMany(targetEntity = LinkMan.class)
+//    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+    private Set<LinkMan> linkMans = new HashSet<LinkMan>();
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "custId=" + custId +
+                ", custAddress='" + custAddress + '\'' +
+                ", custIndustry='" + custIndustry + '\'' +
+                ", custLevel='" + custLevel + '\'' +
+                ", custName='" + custName + '\'' +
+                ", custPhone='" + custPhone + '\'' +
+                ", custSource='" + custSource + '\'' +
+                ", linkMans=" + linkMans +
+                '}';
+    }
 
     public Long getCustId() {
         return custId;
@@ -132,18 +150,5 @@ public class Customer {
 
     public void setLinkMans(Set<LinkMan> linkMans) {
         this.linkMans = linkMans;
-    }
-
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "custId=" + custId +
-                ", custAddress='" + custAddress + '\'' +
-                ", custIndustry='" + custIndustry + '\'' +
-                ", custLevel='" + custLevel + '\'' +
-                ", custName='" + custName + '\'' +
-                ", custPhone='" + custPhone + '\'' +
-                ", custSource='" + custSource + '\'' +
-                '}';
     }
 }

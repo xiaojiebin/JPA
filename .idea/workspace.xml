@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="464a521f-6d98-4606-95cf-219a6ee33dbf" name="Default Changelist" comment="" />
+    <list default="true" id="464a521f-6d98-4606-95cf-219a6ee33dbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/jpa-manytomany.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-manytomany/src/test/java/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-onetomany/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/jpa-onetomany.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/jpa-onetomany.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/LinkMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/classes/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/dao/LinkManDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/dao/LinkManDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/entity/LinkMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/target/classes/xiao/entity/LinkMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-onetomany/target/test-classes/OneToMany.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-onetomany/target/test-classes/OneToMany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/jpa-spec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/jpa-spec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/classes/xiao/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/classes/xiao/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/classes/xiao/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/classes/xiao/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-spec/target/test-classes/SpecTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/jpa-spec/target/" />
     <ignored path="$PROJECT_DIR$/jpa-spec/jpa-onetomany/target/" />
     <ignored path="$PROJECT_DIR$/jpa-onetomany/target/" />
+    <ignored path="$PROJECT_DIR$/jpa-onetomany/jpa-manytomany/target/" />
+    <ignored path="$PROJECT_DIR$/jpa-manytomany/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +88,32 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wrokSpace" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-spec/src/test/java/SpecTest.java">
+        <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3129">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="404">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="420">
+              <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,17 +124,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/resources/application.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+            <state relative-caret-position="300">
+              <caret line="57" column="35" selection-end-line="102" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/CustomerDao.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/test/java/ManyToManyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="10" column="16" lean-forward="true" selection-end-line="26" />
+            <state relative-caret-position="460">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,123 +143,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/LinkMan.java">
+        <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/resources/application.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-                <element signature="e#1764#1765#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1959#1960#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2150#2151#0" expanded="true" />
-                <element signature="e#2204#2205#0" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
-                <element signature="e#2398#2399#0" expanded="true" />
-                <element signature="e#2435#2436#0" expanded="true" />
-                <element signature="e#2466#2467#0" expanded="true" />
-                <element signature="e#2516#2517#0" expanded="true" />
-                <element signature="e#2556#2557#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-                <element signature="e#1941#1942#0" expanded="true" />
-                <element signature="e#1979#1980#0" expanded="true" />
-                <element signature="e#2013#2014#0" expanded="true" />
-                <element signature="e#2067#2068#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2187#2188#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-                <element signature="e#2327#2328#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-                <element signature="e#2409#2410#0" expanded="true" />
-                <element signature="e#2451#2452#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-                <element signature="e#2605#2606#0" expanded="true" />
-                <element signature="e#2641#2642#0" expanded="true" />
-                <element signature="e#2673#2674#0" expanded="true" />
-                <element signature="e#2723#2724#0" expanded="true" />
-                <element signature="e#2765#2766#0" expanded="true" />
-                <element signature="e#2802#2803#0" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2887#2888#0" expanded="true" />
-                <element signature="e#2931#2932#0" expanded="true" />
-                <element signature="e#2972#2973#0" expanded="true" />
-                <element signature="e#3003#3004#0" expanded="true" />
-                <element signature="e#3057#3058#0" expanded="true" />
-                <element signature="e#3097#3098#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/LinkManDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/java/xiao/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="47" column="27" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/resources/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="517">
+              <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -225,15 +156,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>class</find>
+      <find>xiao</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -247,9 +183,16 @@
         <option value="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/LinkManDao.java" />
         <option value="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/LinkMan.java" />
-        <option value="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java" />
         <option value="$PROJECT_DIR$/jpa-onetomany/src/main/resources/application.xml" />
+        <option value="$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java" />
         <option value="$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/Role.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/User.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/test/java/ManyToManyTest.java" />
+        <option value="$PROJECT_DIR$/jpa-manytomany/src/main/resources/application.xml" />
       </list>
     </option>
   </component>
@@ -280,178 +223,119 @@
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiao" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-manytomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiao" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
+              <item name="wrokSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa-onetomany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jpa-spec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559452105910" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559555868900" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiangxin\Desktop\wrokSpace\jpa-manytomany\src" />
       <recent name="D:\workspace\jpa-onetomany\src" />
       <recent name="D:\workspace\jpa-spec\src\main\java" />
     </key>
@@ -468,52 +352,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OneToMany.test">
-    <configuration name="OneToMany.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ManyToManyTest">
+    <configuration name="ManyToManyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-manytomany" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManyToManyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyToManyTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-manytomany" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManyToManyTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneToMany.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-onetomany" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OneToMany" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecTest.testLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-spec" />
+    <configuration name="OneToMany.testCascadeRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-onetomany" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpecTest" />
-      <option name="METHOD_NAME" value="testLike" />
+      <option name="MAIN_CLASS_NAME" value="OneToMany" />
+      <option name="METHOD_NAME" value="testCascadeRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecTest.testNameAndIndustry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-spec" />
+    <configuration name="OneToMany.testTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-onetomany" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpecTest" />
-      <option name="METHOD_NAME" value="testNameAndIndustry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecTest.testSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-spec" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpecTest" />
-      <option name="METHOD_NAME" value="testSpec" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecTest.testTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-spec" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpecTest" />
-      <option name="METHOD_NAME" value="testTotal" />
+      <option name="MAIN_CLASS_NAME" value="OneToMany" />
+      <option name="METHOD_NAME" value="testTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -521,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OneToMany.test" />
-        <item itemvalue="JUnit.SpecTest.testTotal" />
-        <item itemvalue="JUnit.SpecTest.testLike" />
-        <item itemvalue="JUnit.SpecTest.testNameAndIndustry" />
-        <item itemvalue="JUnit.SpecTest.testSpec" />
+        <item itemvalue="JUnit.ManyToManyTest" />
+        <item itemvalue="JUnit.ManyToManyTest.testAdd" />
+        <item itemvalue="JUnit.OneToMany.testCascadeRemove" />
+        <item itemvalue="JUnit.OneToMany.testAdd" />
+        <item itemvalue="JUnit.OneToMany.testTree" />
       </list>
     </recent_temporary>
   </component>
@@ -544,71 +427,71 @@
       <workItem from="1559132478643" duration="890000" />
       <workItem from="1559213917272" duration="4540000" />
       <workItem from="1559444394506" duration="5889000" />
+      <workItem from="1559531020008" duration="12445000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OneToMany_test - 2019.06.02 at 12h 50m 56s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testTree - 2019.06.03 at 16h 41m 46s.xml">
+      <configuration name="OneToMany.testTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 12h 54m 16s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testTree - 2019.06.03 at 16h 41m 58s.xml">
+      <configuration name="OneToMany.testTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 12h 57m 34s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testTwo - 2019.06.03 at 16h 43m 30s.xml">
+      <configuration name="OneToMany.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 12h 58m 16s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testTree - 2019.06.03 at 16h 45m 50s.xml">
+      <configuration name="OneToMany.testTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 01m 59s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testAdd - 2019.06.03 at 16h 51m 15s.xml">
+      <configuration name="OneToMany.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 03m 05s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testAdd - 2019.06.03 at 16h 51m 43s.xml">
+      <configuration name="OneToMany.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 04m 14s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testAdd - 2019.06.03 at 16h 52m 59s.xml">
+      <configuration name="OneToMany.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 04m 59s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="OneToMany_testCascadeRemove - 2019.06.03 at 16h 55m 23s.xml">
+      <configuration name="OneToMany.testCascadeRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 06m 05s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="ManyToManyTest_testAdd - 2019.06.03 at 17h 54m 59s.xml">
+      <configuration name="ManyToManyTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OneToMany_test - 2019.06.02 at 13h 08m 05s.xml">
-      <configuration name="OneToMany.test" configurationId="JUnit" />
+    <history-entry file="ManyToManyTest - 2019.06.03 at 17h 57m 47s.xml">
+      <configuration name="ManyToManyTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12856000" />
+    <option name="totallyTimeSpent" value="25301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.29371002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50158226" side_tool="true" weight="0.16684435" />
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4737406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2561629" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.4592511" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37885463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.3070078" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2753304" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -620,32 +503,32 @@
       <window_info anchor="right" id="Database" order="6" weight="0.36761487" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40153173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.34245077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50158226" side_tool="true" weight="0.16684435" />
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35369775" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2561629" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" visible="true" weight="0.3070078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37885463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.3070078" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2753304" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -657,7 +540,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.36761487" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,20 +548,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/resources/applicationContext.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/domain/Specification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/domain/Specifications.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/domain/Specification.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/domain/Specifications.java" />
     <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/java/xiao/dao/CustomerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -696,9 +567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb44a31a-c413-4848-961a-39e3922a6eab/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb44a31a-c413-4848-961a-39e3922a6eab/console.sql" />
     <entry file="das://cb44a31a-c413-4848-961a-39e3922a6eab/schema/constructiondb/table/t_enterprise_info">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -713,13 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final.jar!/org/hibernate/jpa/criteria/path/AbstractPathImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final.jar!/org/hibernate/jpa/criteria/path/AbstractPathImpl.class" />
     <entry file="das://cb44a31a-c413-4848-961a-39e3922a6eab/schema/jpa/table/cst_customer">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -727,58 +590,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final-sources.jar!/org/hibernate/jpa/criteria/path/AbstractPathImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3276">
-          <caret line="188" column="36" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6636">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-spec/jpa-onetomany/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final-sources.jar!/org/hibernate/jpa/criteria/path/AbstractPathImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/jpa-spec/jpa-onetomany/pom.xml" />
     <entry file="file://$PROJECT_DIR$/jpa-spec/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
           <caret line="130" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="130" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-onetomany/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/java/xiao/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-spec/src/test/java/SpecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3129">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/resources/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -789,10 +607,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/java/xiao/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-spec/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/CustomerDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="10" column="16" lean-forward="true" selection-end-line="26" />
+        <state relative-caret-position="466">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/dao/LinkManDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="226">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,103 +643,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/LinkMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2398#2399#0" expanded="true" />
-            <element signature="e#2435#2436#0" expanded="true" />
-            <element signature="e#2466#2467#0" expanded="true" />
-            <element signature="e#2516#2517#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2599#2600#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-spec/src/test/java/SpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1746#2305#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/java/xiao/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="282">
+          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2359#2360#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2451#2452#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2605#2606#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2765#2766#0" expanded="true" />
-            <element signature="e#2802#2803#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-            <element signature="e#2972#2973#0" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3097#3098#0" expanded="true" />
+            <element signature="e#1877#1886#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+            <element signature="e#2542#2543#0" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2788#2789#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2958#2959#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-onetomany/jpa-manytomany/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/xiao/dao/LinkManDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-onetomany/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="136" selection-start-line="18" selection-start-column="3" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/java/com/xiao/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/main/resources/application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+        <state relative-caret-position="300">
+          <caret line="57" column="35" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-onetomany/src/test/java/OneToMany.java">
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/main/resources/application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="517">
+          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-manytomany/src/test/java/ManyToManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -931,7 +858,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring (jpa-manytomany)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -967,10 +894,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>jpa-manytomany</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -989,6 +918,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

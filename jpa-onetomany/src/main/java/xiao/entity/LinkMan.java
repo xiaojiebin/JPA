@@ -1,5 +1,9 @@
 package xiao.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 import xiao.entity.Customer;
 
 import javax.persistence.*;
@@ -38,9 +42,24 @@ public class LinkMan {
      * * 配置外键的过程，配置到了多的一方，就会在多的一方维护外键
      *
      */
-    @ManyToOne(targetEntity = Customer.class,fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = Customer.class)
     @JoinColumn(name = "lkm_cust_id",referencedColumnName = "cust_id")
     private Customer customer;
+
+    @Override
+    public String toString() {
+        return "LinkMan{" +
+                "lkmId=" + lkmId +
+                ", lkmName='" + lkmName + '\'' +
+                ", lkmGender='" + lkmGender + '\'' +
+                ", lkmPhone='" + lkmPhone + '\'' +
+                ", lkmMobile='" + lkmMobile + '\'' +
+                ", lkmEmail='" + lkmEmail + '\'' +
+                ", lkmPosition='" + lkmPosition + '\'' +
+                ", lkmMemo='" + lkmMemo + '\'' +
+                ", customer=" + customer +
+                '}';
+    }
 
     public Long getLkmId() {
         return lkmId;
@@ -112,19 +131,5 @@ public class LinkMan {
 
     public void setCustomer(Customer customer) {
         this.customer = customer;
-    }
-
-    @Override
-    public String toString() {
-        return "LinkMan{" +
-                "lkmId=" + lkmId +
-                ", lkmName='" + lkmName + '\'' +
-                ", lkmGender='" + lkmGender + '\'' +
-                ", lkmPhone='" + lkmPhone + '\'' +
-                ", lkmMobile='" + lkmMobile + '\'' +
-                ", lkmEmail='" + lkmEmail + '\'' +
-                ", lkmPosition='" + lkmPosition + '\'' +
-                ", lkmMemo='" + lkmMemo + '\'' +
-                '}';
     }
 }
